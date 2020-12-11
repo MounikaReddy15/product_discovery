@@ -7,54 +7,64 @@ var productList = [
     {
         name: 'Roadster',
         cname: 'Jeans',
-        img:'https://sc01.alicdn.com/kf/HTB1uNjAQVXXXXaHapXXq6xXFXXX1.jpg_350x350.jpg'
+        img:'https://sc01.alicdn.com/kf/HTB1uNjAQVXXXXaHapXXq6xXFXXX1.jpg_350x350.jpg',
+        price: 1199
     },
     {
         name: 'Noise Watch',
         cname: 'Watch',
-        img: 'https://staticimg.titan.co.in/Titan/Catalog/1584SL03_1.jpg?pView=pdp'
+        img: 'https://staticimg.titan.co.in/Titan/Catalog/1584SL03_1.jpg?pView=pdp',
+        price: 3499
         
     },
     {
         name: 'Noise Earbuds',
         cname: 'Earbuds',
-        img: 'https://images-na.ssl-images-amazon.com/images/I/71LOa1JA0qL._SY355_.jpg'
+        img: 'https://images-na.ssl-images-amazon.com/images/I/71LOa1JA0qL._SY355_.jpg',
+        price: 1749
     },
     {
         name: 'Soch',
         cname: 'Kurta',
-        img: 'https://i.pinimg.com/originals/18/8c/86/188c860adba2bcdef8ed5b2b9c7d0040.jpg'
+        img: 'https://i.pinimg.com/originals/18/8c/86/188c860adba2bcdef8ed5b2b9c7d0040.jpg',
+        price: 798
     },
     {
         name: 'Yufta',
         cname: 'Kurta',
-        img: 'https://img3.junaroad.com/uiproducts/16914937/pri_175_p-1580982608.jpg'
+        img: 'https://img3.junaroad.com/uiproducts/16914937/pri_175_p-1580982608.jpg',
+        price: 1299
     },
     {
         name: 'Campus Sutra',
         cname: 'Sweatshirts',
-        img: 'https://assets.ajio.com/medias/sys_master/root/he3/h9a/15737449775134/-473Wx593H-461070459-yellow-MODEL.jpg'
+        img: 'https://assets.ajio.com/medias/sys_master/root/he3/h9a/15737449775134/-473Wx593H-461070459-yellow-MODEL.jpg',
+        price: 998
     },
     {
         name: 'Daniel Klein',
         cname: 'Watch',
-        img: 'https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-824,/pub/media/catalog/product/d/k/dk11421-7_1.jpg?rnd=20200526195200'
+        img: 'https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-824,/pub/media/catalog/product/d/k/dk11421-7_1.jpg?rnd=20200526195200',
+        price: 1312
        
     },
     {
         name: 'Hubberholme',
         cname: 'Casuals',
-        img: 'https://n1.sdlcdn.com/imgs/e/a/f/230X258_sharpened/Hubberholme-Grey-Cotton-Trackpants-Single-SDL782934951-1-4d3e9.jpg'
+        img: 'https://n1.sdlcdn.com/imgs/e/a/f/230X258_sharpened/Hubberholme-Grey-Cotton-Trackpants-Single-SDL782934951-1-4d3e9.jpg',
+        price: 479
     },
     {
         name: 'Ecko Unltd',
         cname: 'Jacket',
-        img: 'https://img.looksgud.com/upload/item-image/1770/11yec/11yec-ecko-unltd-men-olive-green-solid-denim-jacket_500x500_0.jpg'
+        img: 'https://img.looksgud.com/upload/item-image/1770/11yec/11yec-ecko-unltd-men-olive-green-solid-denim-jacket_500x500_0.jpg',
+        price: 1751
     },
     {
         name: 'Boat',
         cname: 'Earbuds',
-        img: 'https://cdn.shopify.com/s/files/1/0057/8938/4802/products/boat-airdopes-431-black.jpg?v=1600151382'   
+        img: 'https://cdn.shopify.com/s/files/1/0057/8938/4802/products/boat-airdopes-431-black.jpg?v=1600151382',
+        price: 1999  
     }
     
 ]

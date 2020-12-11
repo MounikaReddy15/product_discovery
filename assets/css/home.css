@@ -43,16 +43,19 @@ body {
 }
 
 .product-image {
-    height: 200px;
+    height: 170px;
     width: 150px;
 }
 
 
 .product-name {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     color: #696868;
 }
 
+.product-price {
+   margin-top: 1%;
+}
 .side-nav {
     height: 100%; 
     width: 190px; 
