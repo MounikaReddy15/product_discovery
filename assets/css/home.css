@@ -47,9 +47,10 @@ body {
     width: 150px;
 }
 
+
 .product-name {
     font-size: 1.3rem;
-    color: #818181;
+    color: #696868;
 }
 
 .side-nav {
@@ -81,9 +82,9 @@ body {
   
   /* Style page content */
 .main {
-    margin-left: 160px; 
+    margin-left: 190px; 
     padding: 0px 10px;
-    margin-top: 2%;
+    margin-top: 1.7%;
 }
 
 .list {
