@@ -1,9 +1,91 @@
 
 
+
 body {
-background-color: rgb(77, 141, 197);
+    margin: 0px;
+}
+
+.title {
+  color: rgb(87, 189, 20);
+  margin: 1px 0px 0px 1px;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+
+.title2 {
+    color: rgb(87, 189, 20);
+    margin: 1px 0px 0px 1px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    text-decoration: none;
+}
+
+.root-header {
+    background: rgb(41, 33, 33);
+    height: 40px;
+    padding: 10px;
+                    
+}
+
+.title3 {
+    color: rgb(87, 189, 20);
+    margin: 1px 0px 0px 1px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 1.5rem;
+    text-decoration: none;
 }
 
 .details {
     display: inline-block;
+    margin-left: 5%;
+    
+}
+
+.product-image {
+    height: 200px;
+    width: 150px;
+}
+
+.product-name {
+    font-size: 1.3rem;
+    color: #818181;
+}
+
+.side-nav {
+    height: 100%; 
+    width: 190px; 
+    position: fixed; 
+    z-index: 1; 
+    top: 9.5%; 
+    left: 0;
+    background-color:rgb(41, 33, 33);
+    overflow-x: hidden; 
+    padding-top: 20px;
+    
+}
+  
+  /* The category links */
+.side-nav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    
+}
+  
+.side-nav a:hover {
+    color: #f1f1f1;
+}
+  
+  /* Style page content */
+.main {
+    margin-left: 160px; 
+    padding: 0px 10px;
+    margin-top: 2%;
+}
+
+.list {
+    list-style-type: none;
 }

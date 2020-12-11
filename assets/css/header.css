@@ -1,0 +1,19 @@
+
+body {
+    margin: 0px;
+}
+
+.title {
+    color: rgb(87, 189, 20);
+    margin: 1px 0px 0px 1px;
+    font-family: 'Courier New', Courier, monospace;
+   text-align: center;
+  }
+
+.root-header {
+                    background: rgb(41, 33, 33);
+                    height: 40px;
+                    padding: 10px;
+                    /* display: flex; */
+       
+}

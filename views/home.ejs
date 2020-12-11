@@ -8,20 +8,35 @@
 </head>
 <body>
     <div>
-        <div>
-            <ul>
+        <div class="root-header">
+            <h1 class="title">Welcome To Shoppiee</h1>
+            
+        </div>
+        <div class="side-nav">
+            <h2 class="title2">Categories</h2>
+                <ul>
+                    <% for(let i of category){ %> 
+                    <li class="list"> 
+                        <!-- <input type="checkbox" id="myCheck" onclick="clickHandler()">  <%= i %> -->
+                        <a href="/category/<%= i %>" > <%= i %> </a>
+                     </li>
+             
+                     <% } %>
+                 </ul>
+        </div>
+            <div class="main">
                 <% for(let i of products){ %> 
-                <li> 
+                
                     <div class = "details">
-                         <p><%= i.name %> </p>
-                         <img src="<%= i.img %>" alt="product-image">
+                         
+                         <img class= "product-image" src="<%= i.img %>" alt="product-image">
+                         <h3 class="product-name"><%= i.name %> </h3>
                     </div>
-                 </li>
+                
          
                  <% } %>
-             </ul>
-        </div>
+             
+            </div>
     </div>
-    <!-- <script src= "/js/home.js"></script> -->
 </body>
 </html>

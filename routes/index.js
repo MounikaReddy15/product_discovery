@@ -5,10 +5,15 @@ const router = express.Router();
 
 const controller = require('../controllers/index');
 
-router.get('/getProducts', controller.getProducts);
+// to show products on screen
 router.get('/',controller.showProducts);
+
+// to get the selected products
+router.get('/category/:categoryname',controller.getCategoryProducts)
+
+// api routes
+router.get('/getProducts', controller.getProducts);
 router.get('/getCategory/:category', controller.getCategory);
-// router.post('/uploadcsv', controller.uploadCsv);
-// router.get('/display', controller.displayFile);
+
 
 module.exports = router;

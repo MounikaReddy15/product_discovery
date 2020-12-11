@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%=title%></title>
+    <link rel="stylesheet" href="/css/home.css">
+</head>
+<body>
+    <div>
+        <div class="root-header">
+        <h1 class="title">Welcome To Shoppiee</h1>
+            
+        </div>
+        <div class="side-nav">
+        <a href="/">  <h2 class="title3">Categories</h2> </a>
+            <ul>
+            <% for(let i of category){ %> 
+            <li class="list"> 
+                
+            <a href="/category/<%= i %>" > <%= i %> </a>
+            </li>
+             
+            <% } %>
+            </ul>
+        </div>
+    <div>
+        <div class="main">
+        <% for(let i of categories){ %> 
+                
+        <div class = "details">
+                 
+        <img class= "product-image" src="<%= i.img %>" alt="product-image">
+        <h3 class="product-name"><%= i.name %> </h3>
+        </div>
+        
+ 
+        <% } %>
+        </div>
+    </div>
+</body>
+</html>
