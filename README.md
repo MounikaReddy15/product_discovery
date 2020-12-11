@@ -2,9 +2,15 @@
 
 In this website user can search for products and select what kind of categories she/he want to shop in.
 
+###### Frontend
 It runs on http://localhost:9000
 
-Api Requests:
+Select any category to get list of desired products
+
+Click on Categories to get back to home page
+
+
+###### Api Requests:
 
 1. To get the list of products in the site
 
